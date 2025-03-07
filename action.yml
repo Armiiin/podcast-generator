@@ -1,12 +1,12 @@
-name: "Podcast Generator"
+name: "Podcast Feed Generator - A Github Action"
 author: "Armin"
 description: "Generates a feed for podcast from a YAML file"
 runs:
   using: "docker"
   image: "Dockerfile"
 branding:
-  icon: "git-branch"
-  color: "red"
+  icon: "rss"
+  color: "yellow"
 inputs:
   email:
     description: The committer's email address
